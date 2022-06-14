@@ -1,0 +1,21 @@
+.app-main {
+    margin: 0.5rem 0.5rem 1rem;
+
+    section {
+        margin: 2rem 0 0;
+        text-align: center;
+        background-color: $color-darkgrey;
+        transform: skewY(10deg);
+
+        .content {
+            padding: 1.5rem 3rem;
+            transform: skewY(-10deg);
+
+            img,
+            p,
+            ul {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

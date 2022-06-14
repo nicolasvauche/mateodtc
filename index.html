@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Bienvenue - Wouhou</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="content">
+        <a href="index.html" class="app-logo" title="Retour à l'accueil">
+          <img src="assets/img/logo.png" alt="Wouhou" />
+        </a>
+
+        <nav class="app-navigation">
+          <a href="index.html" title="Retour à l'accueil">Accueil</a>
+          <a href="index.html#presentation" title="Qui sommes-nous"
+            >Présentation</a
+          >
+          <a href="index.html#activites" title="Nos activités">Activités</a>
+          <a href="index.html#contact" title="Contactez-nous">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section id="presentation">
+        <div class="content">
+          <h2>Présentation</h2>
+
+          <img src="assets/img/about.png" alt="Présentation" />
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            vulputate ex nec nunc accumsan, sed rutrum est hendrerit. Vestibulum
+            cursus arcu lacus, sed maximus mi tincidunt quis.
+          </p>
+        </div>
+      </section>
+
+      <section id="activites">
+        <div class="content">
+          <h2>Activités</h2>
+
+          <img src="assets/img/work.png" alt="Activités" />
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            vulputate ex nec nunc accumsan, sed rutrum est hendrerit.
+          </p>
+
+          <ul>
+            <li>Activité 1</li>
+            <li>Activité 2</li>
+            <li>Activité 3</li>
+            <li>Activité 4</li>
+            <li>Activité 5</li>
+            <li>Activité 6</li>
+            <li>Activité 7</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="content">
+          <h2>Contact</h2>
+
+          <form action="#" method="post" class="app-form">
+            <div class="form-group">
+              <label for="inputFirstname">Prénom :</label>
+              <input
+                type="text"
+                class="form-control"
+                name="firstname"
+                id="inputFirstname"
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputLastname">Nom :</label>
+              <input
+                type="text"
+                class="form-control"
+                name="lastname"
+                id="inputLastname"
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Mail :</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="inputEmail"
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputMessage">Message :</label>
+              <textarea
+                class="form-control"
+                name="message"
+                id="inputMessage"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="app-button">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">MateoDTC</footer>
+  </body>
+</html>
